@@ -1,3 +1,15 @@
 Outlook for Opera is an Opera's Extension that makes Outlook.com better for Opera.
 To download the wrapped up extension go to:
 https://addons.opera.com/en/extensions/details/outlookcom-for-opera/
+
+INSTALLATION
+
+Opera users go here: https://addons.opera.com/it/extensions/details/outlookcom-for-opera/?display=en
+
+Firefox users:
+1) Install Greasemonkey: https://addons.mozilla.org/it/firefox/addon/greasemonkey/
+2) go here: https://github.com/frankdd89/outlookForOpera/downloads
+
+Chrome users:
+1) Install Tampermonkey: https://chrome.google.com/webstore/search/Tampermonkey
+2) go here: https://github.com/frankdd89/outlookForOpera/downloads
