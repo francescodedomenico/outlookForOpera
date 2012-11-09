@@ -23,10 +23,14 @@ var oexOutlookOpera = function()
 	  {
 		//the ... button
 		var more = getElementByClassName("a","c_cmorel uxfa_ml c_ml");
-	   removeElementByID("RightRailContainer");
 	   var temp = document.getElementById("MainContent");
 	   if(temp!=null){
 			temp.style.right = "0px";
+	   }
+	   temp = null;
+	   var temp = document.getElementById("RightRailContainer");
+	   if(temp!=null){
+			temp.style.visibility = "hidden";
 	   }
 		for (var i=0; i<elements.length; i++){
 			temp = document.getElementById(elements[i]);
