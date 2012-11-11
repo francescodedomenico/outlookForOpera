@@ -14,6 +14,7 @@ var oexOutlookOpera = function()
 				"Reply",
 				"DeleteMessages",
 				"MarkAsJunk",
+				"MarkAsNotJunk",
 				"CleanUp",
 				"MoveTo",
 				"Categorize",
