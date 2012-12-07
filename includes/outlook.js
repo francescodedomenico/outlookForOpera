@@ -18,7 +18,9 @@ var oexOutlookOpera = function()
 				"CleanUp",
 				"MoveTo",
 				"Categorize",
-				"EmptyFolderButton"
+				"EmptyFolderButton",
+				"Archive",
+				"NewMessage"
 				);
 	  window.addEventListener('DOMContentLoaded', function()
 	  {
