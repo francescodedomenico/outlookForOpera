@@ -26,6 +26,10 @@ var oexOutlookOpera = function()
 	  {
 		//the ... button
 		var more = getElementByClassName("a","c_cmorel uxfa_ml c_ml");
+		var footer = getElementByClassName("div","FooterContainer");
+		if(footer!=null){
+			footer.style.right = "0px";
+	   }
 	   var temp = document.getElementById("MainContent");
 	   if(temp!=null){
 			temp.style.right = "0px";
