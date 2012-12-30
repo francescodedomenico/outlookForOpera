@@ -22,13 +22,18 @@ var oexOutlookOpera = function()
 				"Archive",
 				"NewMessage"
 				);
-	  window.addEventListener('DOMContentLoaded', function()
+	  window.addEventListener('DOMNodeInserted', function()
 	  {
 		//the ... button
+		removeElementByID("notificationContainer");
 		var more = getElementByClassName("a","c_cmorel uxfa_ml c_ml");
 		var footer = getElementByClassName("div","FooterContainer");
 		if(footer!=null){
 			footer.style.right = "0px";
+	   }
+	   var outer = getElementByClassName("div","NotificationBase NotificationBar BottomBar null");
+	   if(outer!=null){
+			outer.style.visibility = "hidden";
 	   }
 	   var temp = document.getElementById("MainContent");
 	   if(temp!=null){
